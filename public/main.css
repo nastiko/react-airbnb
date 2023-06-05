@@ -1,0 +1,104 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+.nav-style {
+    display: flex;
+    box-shadow: 0 2.98px 7.46px 0 rgba(0,0,0,10%);
+    -webkit-box-shadow: 0 2.98px 7.46px 0 rgba(0,0,0,10%);
+    -moz-box-shadow: 0 2.98px 7.46px 0 rgba(0,0,0,10%);
+    padding: 20px;
+    width: 100%;
+}
+
+.img-style {
+    height: 26px;
+}
+
+/*Section of imgs*/
+.flex-block {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 20px;
+}
+
+.imgs-position {
+    width: 100%;
+    max-width: 400px;
+    align-self: center;
+}
+
+.h1-style {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.p-style {
+    font-size: 16px;
+    color: #222222;
+    font-weight: lighter;
+    margin-top: 0;
+}
+
+/*Cards*/
+.card-img_block {
+    position: relative;
+    width: 176px;
+}
+
+.card-img_style {
+    width: 100%;
+
+}
+
+.card-online {
+    font-size: 10px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    padding: 0 4px;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    gap: 2px;
+}
+
+.card-rating {
+    color: #222222;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.card-review_count {
+    color: #918E9B;
+}
+
+.card-title {
+    font-size: 12px;
+    color: #222222;
+    margin: 5px 0;
+}
+
+.card-cost {
+    font-size: 12px;
+    color: #222222;
+    font-weight: 700;
+    margin: 0;
+}
+
+.card-cost span {
+    font-weight: 400;
+}
