@@ -9,6 +9,14 @@ root.render(
   <div>
       <Header />
       <SectionImgs />
-      <Cards />
+      <Cards
+          img = "athlete.png"
+          rating = {5.0}
+          reviewCount = {6}
+          country = "UK"
+          title = {"Life Lessons with Katie Zaferes"}
+          price = {136}
+
+      />
   </div>
 );
