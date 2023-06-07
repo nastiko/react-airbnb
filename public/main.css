@@ -48,6 +48,21 @@ body {
 }
 
 /*Cards*/
+section {
+    padding-left: 20px;
+}
+
+.cards-block {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    flex: 0 0 auto;
+    position: relative;
+    width: 176px;
+}
+
 .card-img_block {
     position: relative;
     width: 176px;
@@ -58,7 +73,7 @@ body {
 
 }
 
-.card-online {
+.card-badge {
     font-size: 10px;
     text-transform: uppercase;
     border: 1px solid white;
