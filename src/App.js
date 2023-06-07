@@ -9,13 +9,12 @@ export default function App() {
         return (
             <Cards
                 key={course.id}
-                image={course.coverImg}
-                rate={course.stats.rating}
-                review={course.stats.reviewCount}
-                location={course.location}
-                title={course.title}
-                price={course.price}
-                openSpots={course.openSpots}
+
+                // one of method to get data, but you need to use way like: {props.item.coverImg}
+                //item={course}
+
+                // another method to get data, but you need to use way like: {props.coverImg}
+                {...course}
             />
         )
     })
