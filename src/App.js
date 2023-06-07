@@ -2,10 +2,10 @@ import React from 'react';
 import Header from "./components/Header";
 import SectionImgs from "./components/SectionImgs";
 import Cards from "./components/Cards";
-import data from "./data";
+import defaultData from "./data";
 
 export default function App() {
-    const cardInfo = data.map(course => {
+    const cardInfo = defaultData.map(course => {
         return (
             <Cards
                 key={course.id}
